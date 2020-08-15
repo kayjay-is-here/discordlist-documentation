@@ -1,0 +1,18 @@
+site_name: Discordlist Documentation
+theme:
+  name: 'material'
+
+nav:
+  - Home: index.md
+  - 'V1 - Ionian': 
+    - 'About': 'Ionian/about.md'
+    - 'Authenciation': 
+      - 'API Keys': 'Ionian/auth/api_keys.md'
+    - 'Bots':
+      - 'Bot Objects': 'Ionian/bots/bot_object.md'
+      - 'Accessing Bot Stats': 'Ionian/bots/bot_stats.md'
+markdown_extensions:
+  - extra
+  - wikilinks
+  - smarty
+  - toc
